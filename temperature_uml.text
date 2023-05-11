@@ -1,0 +1,11 @@
+@startuml
+class Temperature {
+~degrees : double
+
+~Temperature(d:double)
+~getFahrenheit(): double
+~getCelsius(): double
+}
+
+@enduml
+
