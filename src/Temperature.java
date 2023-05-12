@@ -2,7 +2,7 @@
 /**
  * Class Name: Temperature
  * 
- * Contains a temperature in Fahrenheit and is able to return it as is or in Celsius.
+ * Contains a temperature in Fahrenheit and is able to retrieve it in Celsius or Fahrenheit.
  * 
  * @author Tejpreet Bal
  * @version 1.0
