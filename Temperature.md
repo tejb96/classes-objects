@@ -5,7 +5,7 @@ Author: Tejpreet Bal
 ![image](temperatureUML.png)
 
 ## Specification
-The class Temperature contains a temperature in Fahrenheit and is able to return it as is or in Celsius.
+This class Temperature contains a temperature in Fahrenheit and is able to return it as is or in Celsius.
 
 ## Execution and Testing
 
