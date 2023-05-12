@@ -36,11 +36,11 @@ public class Tile {
 	}
 	
 //	Returns true if two tile objects have the same letter and value
-//	Boolean equals() {
-//		
-//		return tile1.equals(tile2);
-//		
-//	}
+	Boolean equals(Tile t) {
+		
+		return toString().equals(t.toString());
+		
+	}
 
 	public static void main(String[] args) {
 		
@@ -51,6 +51,10 @@ public class Tile {
 		System.out.println("Tile 0: "+tile0.toString());
 		System.out.println("Tile 1: "+tile1.toString());
 		System.out.println("Tile 2: "+tile2.toString());
+		
+		System.out.println("Tile 0 is equal to Tile 1 is "+tile0.equals(tile1));
+		System.out.println("Tile 0 is equal to Tile 2 is "+tile0.equals(tile2));
+
 		
 	}
 
