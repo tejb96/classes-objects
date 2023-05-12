@@ -9,7 +9,7 @@
  *
  */
 public class Tile {
-	
+//	instance variables
 	char letter;
 	int value;
 	
@@ -44,14 +44,18 @@ public class Tile {
 
 	public static void main(String[] args) {
 		
+		
+//		initializing objects of type Tile
 		Tile tile0 = new Tile('A', 1);
 		Tile tile1 = new Tile('A', 1);
 		Tile tile2 = new Tile('Z', 10);
 		
+//		printing result of method toString()
 		System.out.println("Tile 0: "+tile0.toString());
 		System.out.println("Tile 1: "+tile1.toString());
 		System.out.println("Tile 2: "+tile2.toString());
 		
+//		printing result of method equals()
 		System.out.println("Tile 0 is equal to Tile 1 is "+tile0.equals(tile1));
 		System.out.println("Tile 0 is equal to Tile 2 is "+tile0.equals(tile2));
 

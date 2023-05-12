@@ -31,19 +31,18 @@ public class Temperature {
 
 	public static void main(String[] args) {
 		
+//		initialize Temperature objects
 		Temperature thermometer1 = new Temperature(20.0);
 		Temperature thermometer2 = new Temperature(98.6);
 		
-		
+//		rounding to nearest tenth
 		double thermometer1Cels = thermometer1.getCelsius();
-		double thermometer2Cels = thermometer2.getCelsius();
-
 		double thermometer1CelsRounded = Math.round(thermometer1Cels*100)/100.0;
 		
 			
 			
 		
-		
+//		printing results
 		System.out.print("The temperature of thermometer1 is  " + thermometer1.degrees + " Fahrenheit"); 
 		System.out.print("\n"+"The temperature of thermometer1 is  " + thermometer1CelsRounded + " Celsius"); 
 		System.out.print("\n"+"The temperature of thermometer2 is  " + thermometer2.degrees + " Fahrenheit"); 
