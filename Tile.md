@@ -2,7 +2,7 @@
 Author: Tejpreet Bal
 
 ## UML class diagram
-![image](tileuml.png)
+![image](tilesuml.png)
 
 ## Specification
  This class contains a letter and number pair, which can be converted to a string and also compared to other objects of type Tile.
